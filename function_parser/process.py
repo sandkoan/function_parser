@@ -190,7 +190,7 @@ class DataProcessor:
             "docstring_tokens": tokenize_docstring(function["docstring_summary"]),
             "function": function["function"].strip(),
             "function_tokens": function["function_tokens"],
-            "url": "{}}/{}/blob/{}/{}#L{}-L{}".format(
+            "url": "{}/{}/blob/{}/{}#L{}-L{}".format(
                 base_url,
                 nwo,
                 sha,
